@@ -2,4 +2,4 @@
 
 Dieses Repo enthält Codebeispiele für die Seite https://golang.kkoehler.com.
 
-* "Datenbankzugriffe mit Go" https://golang.kkoehler.com/artikel/golang-datenbankzugriffe/ [./db](./db)
+* "Datenbankzugriffe mit Go" https://golang.kkoehler.com/artikel/golang-datenbankzugriffe-sql/ [./db](./db)
