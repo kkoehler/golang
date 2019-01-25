@@ -1,0 +1,10 @@
+version: '2'
+services:
+  db:
+    build: db-docker
+    ports:
+      - "50000:50000"
+    environment:
+      - DB2INST1_PASSWORD=superGeheimesPasswort
+      - LICENSE=accept
+    command: db2start
