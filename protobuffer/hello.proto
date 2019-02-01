@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package main;
+
+message HelloWorld {
+	string message = 1;
+	bool important = 2;
+}
