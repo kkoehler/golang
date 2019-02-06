@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package comment;
+
+message Comment {
+	string message = 1;
+	string who = 2;
+}
+
+message CommentList {
+	repeated Comment comments = 1;
+}
+
+message Void {}
+
+service Comments {
+	rpc createComment(Comment) returns(Void) {};
+	rpc getComments(Void) returns(CommentList) {};
+}
