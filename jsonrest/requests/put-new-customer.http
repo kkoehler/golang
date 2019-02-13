@@ -1,0 +1,7 @@
+PUT http://localhost:8080/customer/1
+
+{
+    "id": 1,
+    "firstname": "Kristian",
+    "lastname": "Köhler"
+}

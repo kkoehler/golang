@@ -11,7 +11,7 @@ import (
 func main() {
 
 	ctx := context.Background()
-	con, err := grpc.Dial(":8080", grpc.WithInsecure())
+	con, err := grpc.Dial(":8080")
 
 	if err != nil {
 		log.Fatalf("could not open connection %v", err)
