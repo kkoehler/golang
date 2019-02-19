@@ -4,6 +4,8 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/kkoehler/golang/jsonrest/middleware"
+
 	"github.com/kkoehler/golang/jsonrest/repo"
 
 	"github.com/kkoehler/golang/jsonrest/controller"
@@ -20,7 +22,7 @@ func main() {
 
 	customerController := controller.NewController(&repository)
 
-	http.Handle("/customer/", &customerController)
+	http.Handle("/customer/", middleware.SecurityMiddleware(&customerController))
 
 	log.Fatal(http.ListenAndServe(port, nil))
 

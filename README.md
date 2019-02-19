@@ -8,3 +8,4 @@ Dieses Repo enthält Codebeispiele für die Seite https://golang.kkoehler.com.
 * [Kommandozeilenwerkzeuge mit Go erstellen](https://golang.kkoehler.com/artikel/go-commandline/) zum [Quellcode](./cmd)
 * [ProtoBuffer/protobuf mit Go nutzen](https://golang.kkoehler.com/artikel/protobuffer-mit-golang)  zum [Quellcode](./protobuffer)
 * [gRPC mit Golang nutzen](https://golang.kkoehler.com/artikel/grpc-mit-golang) zum [Quellcode](./grpc)
+* [JSON RESTful Service mit Golang implementieren](https://golang.kkoehler.com/json-rest-service-mit-golang/) zum [Quellcode](./jsonrest)
