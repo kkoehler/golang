@@ -9,3 +9,4 @@ Dieses Repo enthält Codebeispiele für die Seite https://golang.kkoehler.com.
 * [ProtoBuffer/protobuf mit Go nutzen](https://golang.kkoehler.com/artikel/protobuffer-mit-golang)  zum [Quellcode](./protobuffer)
 * [gRPC mit Golang nutzen](https://golang.kkoehler.com/artikel/grpc-mit-golang) zum [Quellcode](./grpc)
 * [JSON RESTful Service mit Golang implementieren](https://golang.kkoehler.com/json-rest-service-mit-golang/) zum [Quellcode](./jsonrest)
+* [UNIT TESTS UND BENCHMARKS FÜR GO ERSTELLEN](https://golang.kkoehler.com/unit-tests-und-benchmarks-mit-go/) zum [Quellcode](./testing)
