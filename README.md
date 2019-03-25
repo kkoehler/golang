@@ -10,3 +10,4 @@ Dieses Repo enthält Codebeispiele für die Seite https://golang.kkoehler.com.
 * [gRPC mit Golang nutzen](https://golang.kkoehler.com/artikel/grpc-mit-golang) zum [Quellcode](./grpc)
 * [JSON RESTful Service mit Golang implementieren](https://golang.kkoehler.com/json-rest-service-mit-golang/) zum [Quellcode](./jsonrest)
 * [Unit Tests und Benchmarks für Go erstellen](https://golang.kkoehler.com/unit-tests-und-benchmarks-mit-go/) zum [Quellcode](./testing)
+* [Go Services mit Prometheus überwachen](https://golang.kkoehler.com/go-service-mit-prometheus-ueberwachen/) zum [Quellcode](./prometheus)
