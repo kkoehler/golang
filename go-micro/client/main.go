@@ -23,5 +23,5 @@ func main() {
 	}
 
 	// Print response
-	fmt.Println(rsp)
+	fmt.Println(rsp.Greeting)
 }
