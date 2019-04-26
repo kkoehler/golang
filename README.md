@@ -12,3 +12,4 @@ Dieses Repo enthält Codebeispiele für die Seite https://golang.kkoehler.com.
 * [Unit Tests und Benchmarks für Go erstellen](https://golang.kkoehler.com/unit-tests-und-benchmarks-mit-go/) zum [Quellcode](./testing)
 * [Go Services mit Prometheus überwachen](https://golang.kkoehler.com/go-service-mit-prometheus-ueberwachen/) zum [Quellcode](./prometheus)
 * Go Micro zum [Quellcode](./go-micro)
+* Go kit zum [Quellcode](./go-kit)
