@@ -24,3 +24,4 @@ Dieses Repo enthält Codebeispiele für die Seite https://www.source-fellows.com
   * *Der Artikel gibt einen Überblick über die Cloud Microservice Frameworks bzw. Bibliotheken  GoMicro, GoKit, Gizmo und Kite für Go/Golang.*
 * [Go kit](https://www.source-fellows.com/go-cloud-microservice/#go-kit) zum [Quellcode](./go-kit)
   * *Der Artikel gibt einen Überblick über die Cloud Microservice Frameworks bzw. Bibliotheken  GoMicro, GoKit, Gizmo und Kite für Go/Golang.*
+* [Go Context Package](https://www.source-fellows.com/go-context-package/) zum [Quellcode Log](./context-log) und [Quellcode Timeout](./context-timeout)
