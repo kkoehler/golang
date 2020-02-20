@@ -35,6 +35,6 @@ func main() {
 	if err != nil {
 		fmt.Errorf("could not deserialize User because of %v", err)
 	}
-	fmt.Printf("And here is the user %v", user2)
+	fmt.Printf("And here is the user %v\n", user2)
 
 }
