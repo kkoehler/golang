@@ -1,3 +1,4 @@
+// Package main shows a simple command-line client implementation in Go
 package main
 
 import (
