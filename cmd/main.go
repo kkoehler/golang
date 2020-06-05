@@ -1,4 +1,18 @@
-// Package main shows a simple command-line client implementation in Go
+/*Package main shows a simple command-line client implementation in Go.
+
+You can find the corresponding article at https://source-fellows.com/go-commandline/
+
+Run the command with:
+	go run main.go <options>
+
+The following options are available:
+	-flagOne int
+		help message for flagOne (default 1234)
+	-flagThree string
+		Hier sollte ihr Text stehen. (Required)
+	-flagTwo int
+		help message for flagTwo (default 4321)
+*/
 package main
 
 import (
