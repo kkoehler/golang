@@ -1,2 +1,5 @@
 protobuffer/hello.pb.go
 protobuffer/db.blob
+samples/unittest/coverage.html
+samples/unittest/coverage.out
+*/*/.idea/*
