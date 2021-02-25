@@ -1,0 +1,47 @@
+@startuml
+namespace mocks {
+    class MockVehicleRepository << (S,Aquamarine) >> {
+        - ctrl *gomock.Controller
+        - recorder *MockVehicleRepositoryMockRecorder
+
+        + EXPECT() *MockVehicleRepositoryMockRecorder
+        + Get(vin string) (*mocktest.Vehicle, error)
+        + Store(vehicle *mocktest.Vehicle) (*mocktest.Vehicle, error)
+
+    }
+}
+
+"mocktest.VehicleRepository" <|-- "mocks.MockVehicleRepository"
+
+namespace mocktest {
+    class Vehicle << (S,Aquamarine) >> {
+        + Vin string
+
+    }
+    interface VehicleRepository  {
+        + Get(vin string) (*Vehicle, error)
+        + Store(vehicle *Vehicle) (*Vehicle, error)
+
+    }
+    class VehicleService << (S,Aquamarine) >> {
+        - repo VehicleRepository
+
+        + Create(vehicle *Vehicle) (*Vehicle, error)
+        + Get(vin string) (*Vehicle, error)
+
+    }
+    VehicleService -> VehicleRepository
+}
+
+
+namespace mongodb {
+    class VehicleRepository << (S,Aquamarine) >> {
+        + Store( *mocktest.Vehicle) (*mocktest.Vehicle, error)
+        + Get( string) (*mocktest.Vehicle, error)
+
+    }
+}
+
+"mocktest.VehicleRepository" <|-- "mongodb.VehicleRepository"
+
+@enduml
