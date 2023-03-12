@@ -1,2 +1,2 @@
-from grafana/grafana:6.0.2
+from grafana/grafana:v8.5.2
 
